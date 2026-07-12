@@ -1,0 +1,21 @@
+let numbers = [1, 67, 53, 87, 101]
+
+var largest = numbers[0]
+var secondLargest = numbers[0]
+
+for number in numbers {
+
+    if number > largest {
+
+        secondLargest = largest
+        largest = number
+
+    } else if number > secondLargest && number != largest {
+
+        secondLargest = number
+
+    }
+
+}
+
+print(secondLargest)
