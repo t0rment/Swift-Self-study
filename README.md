@@ -31,3 +31,15 @@ Lessons learned:
 - Thinking about edge cases.
 
 - Understanding indexes vs. array values.
+
+# DAY 2
+Topics:
+- Functions
+- Switch
+- Guard
+- Arrays
+
+Completed:
+- Function practice
+- Algorithms
+- Contact Book
