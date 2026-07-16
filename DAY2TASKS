@@ -1,0 +1,47 @@
+/*func square(number:Int)->Int{
+    let squareOfNumber = number * number
+    return squareOfNumber
+}
+square(number: 5)*/
+
+
+/*func cube(number:Int)->Int{
+    return number * number * number
+}
+cube(number:7)*/
+
+/*func isEven(number:Int)->Bool{
+    if number % 2 == 0{
+        return false
+    } else{
+        return true
+    }
+}
+isEven(number: 8)*/
+
+/*func findMaximum(a:Int,b:Int)->Int{
+    if a > b{
+        return a
+    }else{
+        return b
+    }
+}
+findMaximum(a: 4, b: 3)*/
+
+/*func sayHello(name:String)->String{
+    return "Hello, \(name)"
+}
+sayHello(name: "Rita")*/
+
+/*func calculateArea(width:Int, height:Int)->String{
+    return "The area of rectangle is \(width*height)"
+}
+calculateArea(width: 20, height: 36)*/
+
+
+/*func findAverage(a:Int, b:Int)->Double{
+    return ((Double)(a+b)/2)
+}
+findAverage(a: 3, b: 9)*/
+
+
