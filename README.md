@@ -1,45 +1,71 @@
-# Day 1
+# Swift Self Study 🚀
 
+## Goal
+Become a Junior iOS Developer by September 15, 2026.
+
+
+
+## Progress
+
+### ✅ Day 1
 Topics:
-
 - Functions
-
 - Loops
-
-- Arrays
-
-- Strings
-
-- Conditionals
-
-Exercises:
-
-- Calculator (in progress)
-
-- Prime Number
-
-- Reverse String
-
+- Calculator
+- Prime Numbers
 - FizzBuzz
 
-- Second Largest (in progress)
+---
 
-Lessons learned:
-
-- Choosing the correct return type.
-
-- Thinking about edge cases.
-
-- Understanding indexes vs. array values.
-
-# DAY 2
+### ✅ Day 2
 Topics:
-- Functions
-- Switch
-- Guard
 - Arrays
+- Functions
+- Sum
+- Average
+- Count Even Numbers
+- Contains Number
 
-Completed:
-- Function practice
-- Algorithms
-- Contact Book
+---
+
+### ✅ Day 3
+Topics:
+- Optionals
+- Nil Coalescing (??)
+- if let
+- guard let
+
+Exercises:
+- Player Score
+- Profile Greeting
+- Registration Validation
+
+---
+
+### ✅ Day 4
+Topics:
+- Structs
+- Properties
+- Methods
+- Memberwise Initializers
+
+Exercises:
+- Student
+- Book
+- Movie
+- Rectangle
+- Circle
+- BankAccount (in progress)
+
+---
+
+## Current Projects
+- Calculator
+- Student Management System (coming soon)
+- Hello SwiftUI (coming soon)
+
+## Technologies
+- Swift
+- Xcode
+- Git
+- GitHub
