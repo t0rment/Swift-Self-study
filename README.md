@@ -48,6 +48,10 @@ Topics:
 - Properties
 - Methods
 - Memberwise Initializers
+- Dictionaries
+- Sets
+- Tuples
+- Enums
 
 Exercises:
 - Student
