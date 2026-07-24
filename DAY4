@@ -72,3 +72,24 @@ account.deposit(amount: 500)
 account.withdraw(amount: 200)
 
 print(account.balance)
+
+
+let student = (name: "Amina", age:20, gpa: 3.8)
+student.name
+student.1
+student.gpa
+print(student)
+
+
+var phoneBook: [String: Int] = [:]
+phoneBook = ["Mom": 43, "Dad": 47, "Friend": 20]
+phoneBook["Mom"] = 44
+phoneBook.removeValue(forKey: "Dad")
+for i in phoneBook{
+    print(i)
+}
+
+let swiftTopics: Set = ["Variables", "Functions", "Structs"]
+let completedTopics: Set = ["Variables", "Functions"]
+swiftTopics.contains("e")
+
