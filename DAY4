@@ -1,0 +1,74 @@
+import UIKit
+
+struct Student {
+    let name: String
+    let age: Int
+    let gpa: Double
+}
+
+let studentInfo = Student(name: "Mila", age: 19, gpa: 89.5)
+
+struct Book{
+    let name: String
+    let writerName: String
+    let price: Double
+}
+
+let bookInfo = Book(name: "White nights", writerName: "Fyodor Dostoyevsky", price: 7.86)
+
+struct Movie{
+    let name: String
+    let directorName: String
+    let rating: Double
+    
+}
+let movieInfo = Movie(name: "Space Odyssey", directorName: "Stanley Kubrick", rating: 4.1)
+
+print("\(studentInfo.name)'s favorite book is \(bookInfo.name) and favorite movie is \(movieInfo.name)" )
+
+
+struct Rectangle {
+    var width: Double
+    var height: Double
+
+    func area() -> Double{
+        return width * height
+    }
+}
+let rectangleArea = Rectangle(width: 7.5, height: 12.0).area()
+
+print(rectangleArea)
+
+
+
+struct Circle {
+    var radius: Double
+    
+    func area() -> Double{
+        return Double.pi * radius * radius
+    }
+}
+var circleaArea = Circle(radius: 4).area()
+print(circleaArea)
+
+
+
+struct BankAccount {
+    var owner: String
+    var balance: Double
+
+    mutating func deposit(amount: Double) {
+        balance += amount
+    }
+
+    mutating func withdraw(amount: Double) {
+        balance -= amount
+    }
+}
+
+var account = BankAccount(owner: "Ami", balance: 1000)
+
+account.deposit(amount: 500)
+account.withdraw(amount: 200)
+
+print(account.balance)
